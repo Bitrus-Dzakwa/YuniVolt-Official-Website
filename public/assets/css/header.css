@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    z-index: +999; 
+    padding:0 0 20px 0;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    height: 30px;
+}   
+
+a{list-style: none;}
+
+.brandLogo{
+    width: 115px;
+ } 
+
+.userImg{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+}
+
+.navIcon{
+    width: 25px;
+    cursor: pointer;
+} 
+
+
+/*Navigation | Property____________
+**/
+ 
+.navMenu{
+    position: absolute;
+    background-color: rgb(7,42,64);
+    width: 0;
+    height: 90%; 
+    transition: 1s;
+    overflow-y: scroll;
+}
+
+.navLink{ 
+    border-radius: 10px; 
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px; 
+  }
+
+.childNavLink{
+    background-color: rgba(7, 42, 64, 0.411);
+    font-size: 13px;  
+    padding: 10px 0;
+    padding: 5px;
+    width: 95%;
+    margin: 5px;
+}
+
+#nav-links-desktop-wrapper{
+    display: none;
+}
+
+.nav-ul-dsk > li{ 
+    text-align: center;
+}
+
+.mo-nav-li{
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px; 
+    margin-bottom: 10px;
+    border: 3px solid #33cc33;
+}    
+
+/*Navigation | Property____________CLOSED
+**/
+ 
+@media(max-width: 854px){ 
+
+}
+
+@media(min-width: 1024px){  
+    .navMenu{
+      height: 85%; 
+    }
+
+    .hambuger-visitor{
+        display: none;
+    }
+
+    #nav-links-desktop-wrapper{ 
+        display: flex;
+    } 
+
+
+}
+ 
+
+  

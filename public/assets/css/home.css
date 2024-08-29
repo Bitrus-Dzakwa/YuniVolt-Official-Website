@@ -1,0 +1,644 @@
+/*_____GENERAL PROPERTY_______________*/
+main{
+  margin: 0; 
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button { 
+  width: 100%;  
+}
+
+.icon-intros{
+  color: var(--brand-color-green);
+  opacity: 0.5;
+}
+
+.defaultHead-DSK{
+  text-align: center;
+  font-size: 25px;
+  color: var(--brand-color-green);
+  padding: 0; 
+  margin: 0;
+}
+
+.defaultBody-DSK{
+  text-align: center;
+  font-size: 17px;
+  color: var(--brand-color-green);
+  margin: 0;  
+  padding: 0; 
+}
+ 
+.chest-letter{  
+  padding: 10px 20px;
+  font-size: 50px;
+  border: 5px solid #33cc33;
+  color: #33cc33;
+  border-radius: 50px; 
+}
+
+.about-img-box > img{
+  width: 100%; 
+}
+
+/*_____SECTION-1 PROPERTY_______________*/
+
+.section1{  
+  background-image: linear-gradient(rgba(34, 34, 34, 0.7),
+   rgba(34, 34, 34, 0.7)), 
+   url("http://localhost/success/yunivolt/public/assets/images/gallery/photo_2024-03-13_18-20-58.jpg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  padding: 0 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.intro-head{
+  padding: 0 5px;
+  margin-top: 10px; 
+  font-size: 35px;
+  font-weight:bold;
+  text-align: center;
+}
+
+.intro-sub-head{
+padding: 0 5px;
+color: white;
+text-align: center;
+margin-top: 15px;
+font-size: 18px;
+} 
+
+ .mySlides{
+  display: none;
+ }
+
+ /*_____SECTION-2 PROPERTY_______________*/
+ .section2{  
+  padding: 50px 20px;
+}
+
+.serviceBox{
+  text-align: center;
+  padding: 50px 30px;
+  background-color: white;
+  border-radius: 5px;  
+  margin: 30px 0;
+} 
+
+.service-dev-img-Box{  
+  text-align: center;
+  margin: auto;
+} 
+
+#mission{
+  margin-bottom: 50px;  
+}
+
+#chest1{
+  background-image: linear-gradient(rgba(34, 34, 34, 0.3),
+   rgba(34, 34, 34, 0.3)), 
+   url("http://localhost/success/yunivolt/public/assets/images/chests/cctv-camera.png"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   
+} 
+
+
+/*_____About - PROPERTY_______________*/
+
+.about-wrapper{
+  display: block;
+}
+
+.about-img-wrapper{ 
+   background-color: white;
+}
+
+.about-content-wrapper{ 
+  padding: 30px 0;  
+}
+
+
+.about-img{
+  width: 80%;
+  margin: 0 40px;
+} 
+
+.abstract-obt1{
+  width: 40px;
+  margin-top: -580px;
+  margin-left: 22px;  
+}
+
+.abstract-obt2{
+  width: 50px;
+  margin: 0;
+  margin-top: -60px;
+  margin-left: 12px;  
+}
+
+.abstract-obt3{
+  width: 40px;
+  margin-top: -350px;
+  float: right;
+  margin-right: 50px;  
+}
+
+.about-content{
+  padding: 0 40px;
+}
+
+.about-content > h3, h4, p{
+  padding:0;
+  margin: 0;
+  color: black; 
+}
+
+.about-content > h3, h4{ 
+  font-weight: bold;
+}
+
+
+
+/*_____Meet Staff - PROPERTY_______________*/
+.bs-standard{
+  text-align: center;
+}
+
+.staff-img{
+  width: 150px; 
+  height: 150px; 
+  border-radius: 100px;
+} 
+
+#resultWrapper{
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 7px rgba(0,0,0,0.2); 
+}
+ 
+
+    /*_____Contact - PROPERTY_______________*/
+    .section6{  
+      padding: 50px 30px; 
+    }
+
+    .socialIcons{
+      padding: 5px;
+      border-radius: 50%;
+      background-color: #E5E6F0;;
+    }
+
+    .socialIconsE{
+      width: 27px;
+      padding: 3px;
+      border-radius: 50%;
+      background-color: #E5E6F0;;
+    }
+
+    .socialIconsW{
+      padding: 4px;
+      border-radius: 50%;
+      background-color: #E5E6F0;;
+    }
+
+
+/*_____Power Calculator - PROPERTY_______________*/
+
+.power-calculator{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f9f9f9;
+}
+
+#power-calculator-result-wrapper{
+    display:none;
+}
+
+#power-calculator-result-wrapper > h2{
+    padding:0;
+    
+}
+
+#loadsContainer{ 
+  font-size: 15px; 
+  color: var(--brand-color-blue); 
+  background-color: var(--brand-color-blue-light); 
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  overflow-x: scroll;
+}
+
+#watHolder{
+  border: none;
+  background-color: #f9f9f9;
+}
+
+.btn-spc-small{
+  height: 20px;
+  width: 40px;
+  font-size: 10px;
+}
+
+.dynaLoads{ 
+  border-radius: 5px;  
+  margin:5px;
+  padding: 5px; 
+  text-wrap: nowrap;
+}
+
+.power-calculator-landing > h2{
+  font-size:25px; 
+  text-align:center; 
+  padding-bottom:5px; 
+  margin:0;
+}
+
+.power-calculator-landing > p{
+   font-size:16px; 
+   text-align:center;
+   margin-bottom:20px;
+}
+
+.warningTag{
+    padding:5px 10px;
+    background-color: rgba(19, 19, 19, 0.438);
+    color:white;
+    border-radius: 10px;
+    margin-bottom:20px;
+    text-align:center;
+}
+ 
+
+ .container {
+     max-width: 400px;
+     margin: 0 auto;
+     padding-left: 2.5%;
+     padding-right: 2.5%;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin-bottom: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px; 
+ }
+ 
+ .ooo{  
+     padding: 30px 20px;
+ }
+
+ #power-calculator-result {
+     margin-top: 10px;
+     font-weight: bold;
+ }
+
+ #param44, #param55, #param66{
+  border-left: 4px solid #ff6600;
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+#loads, #timeUsage{
+  padding: 2px 5px;
+  background-color: var(--brand-color-orange-light);
+}  
+/*_____END----SECTION-1_______________*/ 
+
+
+
+
+/*_____Abscract 1 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 400px){ 
+  .abstract-obt1{ 
+    margin-top: -600px; 
+  } 
+}
+
+/*_____Abscract 2 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 404px){ 
+  .abstract-obt3{ 
+    margin-top: -320px;   
+  } 
+}
+
+/*_____Abscract 3 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 420px){ 
+  .abstract-obt1{ 
+    margin-top: -635px;   
+  } 
+}
+
+/*_____Abscract 4 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 440px){ 
+  .abstract-obt1{ 
+    margin-top: -675px;   
+  } 
+}
+
+/*_____Abscract 5 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 456px){ 
+  .abstract-obt3{ 
+    margin-top: -290px;   
+  }  
+}
+
+/*_____Abscract 6 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 460px){ 
+  .abstract-obt1{ 
+    margin-top: -700px;   
+  } 
+}
+
+/*_____Abscract 7 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 480px){ 
+  .abstract-obt1{ 
+    margin-top: -740px;   
+  } 
+}
+
+/*_____Abscract 8 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 510px){ 
+  .abstract-obt1{ 
+    margin-top: -780px;   
+  } 
+}
+
+/*_____Abscract 9 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 540px){ 
+  .abstract-obt1{ 
+    margin-top: -820px;   
+  } 
+
+  .abstract-obt3{ 
+    margin-top: -260px;   
+  }
+}
+
+/*_____Abscract 10 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 560px){ 
+  .abstract-obt1{ 
+    margin-top: -860px;   
+  }  
+}
+
+/*_____Abscract 11 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 580px){ 
+  .abstract-obt1{ 
+    margin-top: -900px;   
+  }  
+}
+
+/*_____Abscract 12 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 600px){ 
+  .abstract-obt1{ 
+    margin-top: -920px;   
+  }  
+}
+
+/*_____Abscract 13 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 630px){ 
+  .abstract-obt1{ 
+    margin-top: -960px;   
+  }  
+}
+
+/*_____Abscract 14 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 660px){ 
+  .abstract-obt1{ 
+    margin-top: -1000px;   
+  }  
+
+  .abstract-obt3{ 
+    margin-top: -220px;   
+  }
+}
+
+/*_____Abscract 15 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 680px){ 
+  .abstract-obt1{ 
+    margin-top: -1030px;   
+  }   
+}
+
+/*_____Abscract 16 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 710px){ 
+  .abstract-obt1{ 
+    margin-top: -1060px;   
+  }   
+}
+
+/*_____Abscract 17 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 730px){ 
+  .abstract-obt1{ 
+    margin-top: -1100px;   
+  }   
+}
+
+/*_____Abscract 18 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 737px){ 
+  .abstract-obt1{ 
+    margin-top: -90px;  
+    float: left; 
+  } 
+  
+  .abstract-obt3{ 
+    margin-top: -260px; 
+    margin-right: 300px;  
+  }
+}
+
+
+/*_____TABLET VERSION |RESPONSIVE PROPERTY_______________*/
+
+@media(min-width: 854px){ 
+      /*_____General PROPERTY_______________*/
+      .defaultHead-DSK{
+        font-size: 25px;
+      } 
+
+      .gallery-DSK{display: block;}
+      .gallery-mobile{display: none;}
+      .g-img-dsk{width: 200px;height: 200px;}
+      .ttt{padding-left: 100px;}
+    
+      .defaultBody-DSK{
+        font-size: 16px; 
+      } 
+
+    /*_____SECTION-1 PROPERTY_______________*/
+
+
+   /*_____SECTION-2 PROPERTY_______________*/ 
+   .serviceMinor{
+    display: flex;
+  } 
+
+  .serviceBox{
+    margin: 20px 10px;
+  }
+
+  .about-wrapper{
+    display: flex;
+  }
+
+  .about-img-box{
+    width: 50%;
+  }
+  .about-content-wrapper{
+    padding-left: 50px;
+    padding-right: 20px;
+    width: 50%;
+  }
+  .about-content-wrapper >div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .about-content-wrapper >div > p{
+    font-size: 17px;
+  }
+
+  .mi-vi-wrapper{
+    display: flex;
+  }  
+
+  .ooo{
+    display: flex; 
+  } 
+
+  #resultWrapper{
+    width: 50%;
+    margin-left: 10px;
+  }
+
+  .chests-sec{
+    background-image: 
+     url("http://localhost/success/yunivolt/public/assets/images/Rectangle-10.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }  
+    
+  .abstract-obt1{ 
+      margin-top: -410px;    
+    } 
+    
+    .abstract-obt3{ 
+      margin-top: -400px; 
+      margin-right: 0;  
+    }
+
+    #mission{
+      margin-bottom: 0; 
+    }
+  
+     
+}
+
+/*_____Abscract 19 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 960px){ 
+  .abstract-obt1{ 
+    margin-top: -430px;   
+  } 
+  
+  .abstract-obt3{ 
+    margin-top: -370px;    
+  }
+}
+
+/*_____Abscract 20 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 1050px){ 
+  .abstract-obt1{ 
+    margin-top: -470px;   
+  }  
+}
+
+/*_____DESKTOP VERSION |RESPONSIVE PROPERTY_______________*/
+ @media(min-width: 1115px){ 
+/*_____General PROPERTY_______________*/
+.defaultHead-DSK{
+  font-size: 27px;
+}
+
+.defaultBody-DSK{
+  font-size: 17px; 
+}
+
+.g-img-dsk{width: 300px;height: 200px;}
+.ttt{padding-left: 10px;}
+
+.generalPopUp-child{
+  width:70%;
+  top: 25%;
+  left: 15%; 
+  right: 15%; 
+  padding-top: 80px;
+}
+
+.about-img-box{
+  width: 40%;
+  padding-left: 10%;
+}
+
+.about-img-box > img{
+  width: 100%; 
+}
+
+  /*_____SECTION-1 PROPERTY_______________*/
+  .power-calculator-landing{
+    margin-bottom:30px;
+  }
+  .power-calculator-landing > p{
+    padding: 0 200px;
+   }
+
+  /*_____SECTION-2 PROPERTY_______________*/ 
+  .servicesGeneral{
+    display: flex;
+  } 
+
+  .serviceBox{
+    margin: 20px 10px;
+  }
+
+  .mi-vi-wrapper{ 
+    padding: 0 10%;
+  }   
+
+  .chests-sec{display: flex;}  
+  
+  .abstract-obt3{ 
+    margin-top: -310px;    
+  }
+
+
+} 
+
+/*_____Abscract 21 |RESPONSIVE PROPERTY_______________*/ 
+@media(min-width: 1200px){ 
+  .abstract-obt3{ 
+    margin-top: -270px;
+    margin-right: 50px;   
+  }  
+}
+ 
+
+ 
+ 
+
+ 
